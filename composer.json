@@ -1,0 +1,12 @@
+{
+	"name": "unionofrad/li3_plugin",
+	"type": "lithium-library",
+	"description": "Boilperplate for creating your own li3 plugin.",
+	"keywords": ["lithium", "li3", "boilerplate", "plugin"],
+	"homepage": "https://github.com/UnionOfRAD/li3_plugin",
+	"license": "BSD-3-clause",
+	"require": {
+		"php": ">=5.3",
+		"composer/installers": "*"
+	}
+}
