@@ -1,9 +1,6 @@
 # <PROJECT TITLE>
 ### li₃ plugin
 
-## Usage
-n/a
-
 ## Installation
 
 The preferred installation method is via composer. You can add
@@ -19,6 +16,9 @@ as they use a different (faster) autoloader.
 ```php
 Libraries::add('<PROJECT NAME>')
 ```
+
+## Usage
+n/a
 
 ## Copyright & License
 
