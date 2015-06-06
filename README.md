@@ -1,7 +1,8 @@
 # <PROJECT TITLE>
-## li₃ plugin
+### li₃ plugin
 
 ## Usage
+n/a
 
 ## Installation
 
