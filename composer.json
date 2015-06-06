@@ -1,8 +1,8 @@
 {
-	"name": "unionofrad/li3_plugin",
+	"name": "<AUTHOR>/<PROJECT NAME>",
 	"type": "lithium-library",
-	"description": "Boilperplate for creating your own li3 plugin.",
-	"keywords": ["lithium", "li3", "boilerplate", "plugin"],
+	"description": "<PROJECT DESCRIPTION>.",
+	"keywords": ["lithium", "li3", "plugin"],
 	"license": "BSD-3-clause",
 	"require": {
 		"php": ">=5.3",
