@@ -1,9 +1,10 @@
 <?php
 /**
- * Lithium: the most rad php framework
+ * <PROJECT TITLE> (<WEBSITE>)
  *
- * @copyright     Copyright 2015, Union of RAD (http://union-of-rad.org)
- * @license       http://opensource.org/licenses/bsd-license.php The BSD License
+ * Copyright <YEAR> <AUTHOR>. All rights reserved. This source code
+ * is distributed under the terms of the BSD 3-Clause License. The
+ * full license text can be found in the LICENSE.txt file.
  */
 
 use lithium\net\http\Router;
