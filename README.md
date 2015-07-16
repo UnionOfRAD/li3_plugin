@@ -1,5 +1,4 @@
 # <PROJECT TITLE>
-### li₃ plugin
 
 ## Installation
 
@@ -10,12 +9,16 @@ the library as a dependency via:
 composer require <AUTHOR>/<PROJECT NAME>
 ```
 
-li₃ libraries must be registered within your application bootstrap phase 
+li₃ plugins must be registered within your application bootstrap phase 
 as they use a different (faster) autoloader. 
 
 ```php
 Libraries::add('<PROJECT NAME>')
 ```
+
+The official manual has more information on 
+[how to register the plugin](http://li3.me/docs/manual/installation/plugins.md) 
+with the app or use alternative installation methods (i.e. via GIT).
 
 ## Usage
 n/a
