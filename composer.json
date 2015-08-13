@@ -6,6 +6,7 @@
 	"license": "BSD-3-clause",
 	"require": {
 		"php": ">=5.3",
-		"composer/installers": "*"
+		"composer/installers": "*",
+        "unionofrad/lithium": "1.0.0@RC"
 	}
 }
