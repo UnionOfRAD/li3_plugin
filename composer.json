@@ -7,6 +7,6 @@
 	"require": {
 		"php": ">=5.3",
 		"composer/installers": "*",
-        "unionofrad/lithium": "1.0.0-rc1"
+        "unionofrad/lithium": "1.0.*@RC"
 	}
 }
