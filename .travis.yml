@@ -1,0 +1,22 @@
+#
+# <PROJECT TITLE> (<WEBSITE>)
+#
+# Copyright <YEAR> <AUTHOR>. All rights reserved. This source code
+# is distributed under the terms of the BSD 3-Clause License. The
+# full license text can be found in the LICENSE.txt file.
+#
+language: php
+
+php:
+  - 5.5
+  - 5.6
+  - 7.0
+
+before_install:
+  - cd ../
+  - composer create-project --keep-vcs unionofrad/framework framework 1.1.*@dev
+  - cd framework
+  - mv ../li3_plugin app/libraries/
+  - sed -i -e 's/?>/Libraries::add("li3_plugin"); ?>/g' app/config/bootstrap/libraries.php
+
+script: libraries/lithium/console/li3 test libraries/li3_plugin/tests
